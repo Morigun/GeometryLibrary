@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary", "AreaCalculator\GeometryLibrary.csproj", "{14737A8A-90A6-4915-9550-89248EE53981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTests", "AreaCalculatorTests\GeometryTests.csproj", "{880E59D4-2AE9-4935-908C-FD73D7712A8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14737A8A-90A6-4915-9550-89248EE53981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14737A8A-90A6-4915-9550-89248EE53981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14737A8A-90A6-4915-9550-89248EE53981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14737A8A-90A6-4915-9550-89248EE53981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880E59D4-2AE9-4935-908C-FD73D7712A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880E59D4-2AE9-4935-908C-FD73D7712A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880E59D4-2AE9-4935-908C-FD73D7712A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880E59D4-2AE9-4935-908C-FD73D7712A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A95DC24-0845-426D-99A6-B3879B97C96E}
+	EndGlobalSection
+EndGlobal
