@@ -15,7 +15,7 @@ namespace GeometryLibrary.Figures.Tests
         [TestMethod()]
         public void CalculateAreaTest()
         {
-            Figure circle = new Circle(10);
+            IFigure circle = new Circle(10);
             Assert.AreEqual(circle.CalculateArea(), 314.1592653589793);
         }
     }

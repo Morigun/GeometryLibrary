@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace GeometryLibrary.Figures
 {
-    public abstract class Figure
+    public interface IFigure
     {
-        public abstract double CalculateArea();
+        double CalculateArea();
     }
 }

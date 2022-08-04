@@ -15,7 +15,7 @@ namespace GeometryLibrary.Figures.Tests
         [TestMethod()]
         public void CalculateAreaTest()
         {
-            Figure triangle = new Triangle(3, 4, 5);
+            IFigure triangle = new Triangle(3, 4, 5);
             Assert.AreEqual(triangle.CalculateArea(), 6);
         }
 

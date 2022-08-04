@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GeometryLibrary.Figures
 {
-    public class Circle : Figure
+    public class Circle : IFigure
     {
         public Circle(double radius)
         {
@@ -16,7 +16,7 @@ namespace GeometryLibrary.Figures
 
         public double Radius { get; set; }
 
-        public override double CalculateArea()
+        public double CalculateArea()
         {
             return Math.PI * Math.Pow(Radius, 2);
         }

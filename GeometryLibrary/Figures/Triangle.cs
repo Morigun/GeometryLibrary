@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GeometryLibrary.Figures
 {
-    public class Triangle : Figure
+    public class Triangle : IFigure
     {
         public Triangle(double a, double b, double c)
         {
@@ -25,7 +25,7 @@ namespace GeometryLibrary.Figures
             return (A + B + C) / 2;
         }
 
-        public override double CalculateArea()
+        public double CalculateArea()
         {
             double p = CalculateSemiperimetr();
             return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
